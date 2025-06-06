@@ -23,11 +23,11 @@ This system aims to assist individuals and healthcare providers in early detecti
 | Layer         | Technology                        |
 |---------------|---------------------------------|
 | Backend       | Python (Flask)                  |
-| Frontend      | Jupyter Notebook + HTML5, CSS3  |
+| Frontend      | HTML5, CSS3                     |
 | Styling       | Custom CSS                      |
 | Database      | SQLite3                        |
 | Machine Learning | Scikit-learn, Pandas, NumPy  |
-| Templating    | Jinja2                         |
+| Tool           | Jupyter Notebook                        |
 | Deployment    | Local / Planned cloud deployment|
 
 ---
