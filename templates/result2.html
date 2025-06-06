@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Disease Risk</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #ffcccc;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .message {
+            text-align: center;
+            background-color: white;
+            padding: 30px;
+            border: 2px solid red;
+            border-radius: 10px;
+        }
+        .message h1 {
+            color: red;
+        }
+        .message p {
+            font-size: 18px;
+        }
+        .btn-container {
+            margin-top: 20px;
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+        }
+        .btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            color: white;
+            cursor: pointer;
+            text-align: center;
+        }
+        .download-btn {
+            background: blue;
+        }
+        .download-btn:hover {
+            background: darkblue;
+        }
+        .logout-btn {
+            background: red;
+        }
+        .logout-btn:hover {
+            background: darkred;
+        }
+    </style>
+</head>
+<body>
+    <div class="message">
+        <h1>Immediate Concern!🚨🚑</h1>
+        <p>You may be at risk of heart disease. Please consult a doctor for further evaluation.</p>
+        <div class="btn-container">
+            <a href="/download_report" class="btn download-btn">Download Report</a>
+            <a href="/logout" class="btn logout-btn">Logout</a>
+        </div>
+    </div>
+</body>
+</html>
